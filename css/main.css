@@ -332,6 +332,12 @@ li{
     color: #0077B5;
 }
 
+.allsocial{
+    width: 200px;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
 .social * {
     font-size: 15px;
 }
