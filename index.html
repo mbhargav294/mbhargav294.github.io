@@ -1,211 +1,227 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Madhu Portfolio</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Brighton Times</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="main_resp.css">
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,600" rel="stylesheet">
+    <link href="http://weloveiconfonts.com/api/?family=zocial" rel="stylesheet">
+</head>
 
-    <header class="header">
-      <div class="header__inner">
-        <img class="header__logo" src="images/city.png" alt="iconic view of a cityscape">
-        <h1 class="header__title">
-          The Brighton Times
-        </h1>
-      </div>
+<body>
+    <header>
+        <div class="col3">
+            <img class="logo" src="img/logo.svg" alt="Logo Image.">
+        </div>
+        <div class="col9">
+            <div class="title">
+                <h1 class="myname">MADHU BHARGAV</h1>
+                <p class="mydes">Software Developer</p>
+            </div>
+        </div>
     </header>
-
-
-
-    <nav id="drawer" class="nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#">News</a></li>
-        <li class="nav__item"><a href="#">Events</a></li>
-        <li class="nav__item"><a href="#">Culture</a></li>
-        <li class="nav__item"><a href="#">Blog</a></li>
-      </ul>
-    </nav>
-
     <main>
-      <div class="container">
-        <div class="hero">
-          <img id="menu" class="small" src="images/hamburger.png" alt="Menu Icon">
-          <article class="description">
-            <h2>Absolutely astonishing breaking news!</h2>
-            <p>Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko. Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</p>
-          </article>
+        <div class="col12">
+            <div class="topimg abs">
+                <picture>
+                    <source media="(min-width: 1000px)" srcset="img/images-large-1x/coding-large1x.png 1x, img/images-large-2x/coding-large2x.png 2x">
+                    <source media="(min-width: 600px)" srcset="img/images-medium-1x/coding-medium1x.png 1x, img/images-medium-2x/coding-medium2x.png 2x">
+                    <img src="img/images-small/coding-small.png" alt="Title Image">
+                </picture>
+                <div class="intro">
+                    <div class="heading">Introduction</div>
+                    <div class="text">Working as Instructional Assistant at UNT Computer Science Department for Operating Systems course (CSCE 4600) with Dr. Mark Thompson and Dr. Bill Buckles. Excellent Programming and Analytical skills.</div>
+                </div>
+            </div>
         </div>
-
-        <div class="news top-news">
-          <h2 class="news__title">Top news <a href="#" class="news__more">+ more</a></h2>
-          <ul>
-            <li class="top-news__item">
-              <a href="#">Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.</a>
-            </li>
-            <li class="top-news__item">
-              <a href="#">Squid lomo Kickstarter art lomo Kickstarter art party cronut scenester.</a>
-            </li>
-            <li class="top-news__item">
-              <a href="#">Organic raw denim lomo Kickstarter art Vice keffiyeh four loko.</a>
-            </li>
-            <li class="top-news__item">
-              <a href="#">Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</a>
-            </li>
-          </ul>
+        <div class="col12 main-content abs">
+            <div class="col12">
+                <h2 class="subtitle">Education</h2>
+            </div>
+            <div class="edu">
+                <table>
+                    <tr>
+                        <th>Level</th>
+                        <th class="bigname">University</th>
+                        <th class="smallname">Univ.</th>
+                        <th class="bigname">Location</th>
+                        <th class="bigname">Department</th>
+                        <th class="smallname">Dept.</th>
+                        <th>GPA</th>
+                    </tr>
+                    <tr>
+                        <td>Masters</td>
+                        <td class="bigname"><a class="link" href="https://www.unt.edu/">University of North Texas</a></td>
+                        <td class="smallname"><a class="link" href="https://www.unt.edu/">UNT</a></td>
+                        <td class="bigname">Denton, TX</td>
+                        <td class="bigname">Computer Science</td>
+                        <td class="smallname">CS</td>
+                        <td>3.5</td>
+                    </tr>
+                    <tr>
+                        <td>Bachelors</td>
+                        <td class="bigname"><a class="link" href="http://www.kluniversity.in/">KL University</a></td>
+                        <td class="smallname"><a class="link" href="http://www.kluniversity.in/">KLU</a></td>
+                        <td class="bigname">Vijayawada, India</td>
+                        <td class="bigname">Computer Science</td>
+                        <td class="smallname">CS</td>
+                        <td>3.4</td>
+                    </tr>
+                </table>
+                <div class="col12">
+                    <h6 class="subsubtitle">Relavent Courses</h6>
+                    <div class="text courses"> Relevant Courses: Pattern Recognition, Machine Learning, Information Retrieval, Natural Language Processing, Analysis of Computer Algorithms, Operating System Design, Multimedia Databases, Advanced Database Systems, Computer Graphics, Object oriented Programming Languages (C++, Java), Data Structures, Database Systems, Internet Programming, Computer Networks, Network Security, Artificial Intelligence,</div>
+                </div>
+            </div>
+            <hr>
+            <div class="col12">
+                <h2 class="subtitle">Skill Set</h2>
+            </div>
+            <div class="col12">
+                <div>
+                    <ul>
+                        <li>
+                            <b>Development Technologies:</b> C, C++, Python, .NET (C# and VB), JAVA, UML
+                        </li>
+                        <li>
+                            <b>DBMS:</b> MySQL, SQLite, JDBC, MS Access
+                        </li>
+                        <li>
+                            <b>Operating Systems:</b> Ubuntu, Windows 7/8/10, Mac
+                        </li>
+                        <li>
+                           <b>Web Development/Frameworks:</b> Visual Studio, Eclipse, Netbeans, PyCharm, MatLab
+                        </li>
+                        <li>
+                        <b>Web Technologies:</b> HTML, CSS, XML, JavaScript, PHP, Servlets, JSP, JQuery
+                        </li>
+                        <li>
+                            <b>Software Practices:</b> Agile Software Development, Scrum, JUnit, TDD, SDLC
+                        </li>
+                        <li>
+                            <b>Web Server:</b> Apache Tomcat
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="col12">
+                <h2 class="subtitle">Featured Work</h2>
+            </div>
+            <div class="col12">
+                <div class="images">
+                    <figure class="image">
+                        <div class="img">
+                            <picture>
+                                <source media="(min-width: 1000px)" srcset="img/images-large-1x/movie-large1x.png 1x, img/images-large-2x/movie-large2x.png 2x">
+                                <source media="(min-width: 600px)" srcset="img/images-medium-1x/movie-medium1x.png 1x, img/images-medium-2x/movie-medium2x.png 2x">
+                                <img src="img/images-small/movie-small.png" alt="Image of a movie-webpage">
+                            </picture>
+                        </div>
+                        <div class="image-desc">
+                            <figcaption>Movie Trailer</figcaption>
+                            <figcaption><a href="https://github.com/mbhargav294/Movie-Trailers">Github link</a></figcaption>
+                        </div>
+                    </figure>
+                    <figure class="image">
+                        <div class="img">
+                            <picture>
+                                <source media="(min-width: 1000px)" srcset="img/images-large-1x/search-large1x.png 1x, img/images-large-2x/search-large2x.png 2x">
+                                <source media="(min-width: 600px)" srcset="img/images-medium-1x/search-medium1x.png 1x, img/images-medium-2x/search-medium2x.png 2x">
+                                <img src="img/images-small/search-small.png" alt="Image of a UNT search application.">
+                            </picture>
+                        </div>
+                        <div class="image-desc">
+                            <figcaption>UNT Search engine</figcaption>
+                            <figcaption><a href="https://github.com/mbhargav294/UNTSearchEngine">Github link</a></figcaption>
+                        </div>
+                    </figure>
+                    <figure class="image">
+                        <div class="img">
+                            <picture>
+                                <source media="(min-width: 1000px)" srcset="img/images-large-1x/recommender-large1x.png 1x, img/images-large-2x/recommender-large2x.png 2x">
+                                <source media="(min-width: 600px)" srcset="img/images-medium-1x/recommender-medium1x.png 1x, img/images-medium-2x/recommender-medium2x.png 2x">
+                                <img src="img/images-small/recommender-small.png" alt="Image of a recommender system java application">
+                            </picture>
+                        </div>
+                        <div class="image-desc">
+                            <figcaption>Movie Recommender System</figcaption>
+                            <figcaption><a href="https://github.com/mbhargav294/MovieRecommenderSystem">Github link</a></figcaption>
+                        </div>
+                    </figure>
+                    <figure class="image">
+                        <div class="img">
+                            <picture>
+                                <source media="(min-width: 1000px)" srcset="img/images-large-1x/contrast-large1x.png 1x, img/images-large-2x/contrast-large2x.png 2x">
+                                <source media="(min-width: 600px)" srcset="img/images-medium-1x/contrast-medium1x.png 1x, img/images-medium-2x/contrast-medium2x.png 2x">
+                                <img src="img/images-small/contrast-small.png" alt="Image of a Image enhancer application.">
+                            </picture>
+                        </div>
+                        <div class="image-desc">
+                            <figcaption>Image Contrast Enhancer</figcaption>
+                            <figcaption><a href="https://github.com/mbhargav294/MovieRecommenderSystem">Github link</a></figcaption>
+                        </div>
+                    </figure>
+                    <figure class="image">
+                        <div class="img">
+                            <picture>
+                                <source media="(min-width: 1000px)" srcset="img/images-large-1x/pos-large1x.png 1x, img/images-large-2x/pos-large2x.png 2x">
+                                <source media="(min-width: 600px)" srcset="img/images-medium-1x/pos-medium1x.png 1x, img/images-medium-2x/pos-medium2x.png 2x">
+                                <img src="img/images-small/pos-small.png" alt="Image of a Twitter Parts of Speech Tagger application.">
+                            </picture>
+                        </div>
+                        <div class="image-desc">
+                            <figcaption>Twitter POS Tagger</figcaption>
+                            <figcaption><a href="https://github.com/mbhargav294/TwitterPOS">Github link</a></figcaption>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <hr>
+            <div class="col6">
+                <h2 class="subtitle">Experience</h2>
+            </div>
+            <div class="col12">
+                <ul class="exp">
+                    <li>
+                        Currently working as Instructional Assistant for course CSCE 4600 Introduction to Operating Systems with Dr. Mark Thompson and Dr. Bill Buckles at UNT Computer Science Department, Denton.
+                    </li>
+                    <li>
+                        Worked as an Instructional Assistant for courses CSCE 3055 IT Project Management, CSCE 3420 Internet Programming and CSCE 4350 Introduction to Database Systems Design at UNT Computer Science Department.
+                    </li>
+                    <li>
+                        Done an internship at Cognizant Technology Solutions (CTS), Hyderabad, India on Employee ManagementSystem, where an application is developed to manage the projects allotted to the employees within the CTSdomain. This is a windows application developed using Visual Studio 2015. The entire database is stored ona Cloud, and this is programmed on OneCognizant, a Cognizant private Cloud application.
+                    </li>
+                    <li>
+                        An internship at South Central Railway, Vijayawada, India which is offered to me during Summer 2014.The work here includes, maintenance of the databases that contain information about the railway crew.
+                    </li>
+                </ul>
+            </div>
+            <hr>
         </div>
-
-        <div class="scores">
-          <table class="scores__table">
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th class="lname">Team</th>
-                <th class="sname">Team</th>
-                <th colspan="2">Score</th>
-                <th class="lname">Team</th>
-                <th class="sname">Team</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Friday</td>
-                <td class="lname">Bears</td>
-                <td class="sname">BEA</td>
-                <td class="lscore">95</td>
-                <td class="winner">109</td>
-                <td class="winner lname">Cubs</td>
-                <td class="winner sname">CUB</td>
-              </tr>
-              <tr>
-                <td>Friday</td>
-                <td class="winner lname">Otters</td>
-                <td class="winner sname">OTT</td>
-                <td class="winner">3</td>
-                <td class="lscore">1</td>
-                <td class="lname">Cubs</td>
-                <td class="sname">CUB</td>
-              </tr>
-              <tr>
-                <td>Saturday</td>
-                <td class="winner lname">Wolves</td>
-                <td class="winner sname">WOL</td>
-                <td class="winner">7</td>
-                <td class="lscore">0</td>
-                <td class="lname">Panthers</td>
-                <td class="sname">PTR</td>
-              </tr>
-              <tr>
-                <td>Sunday</td>
-                <td class="lname">Hawks</td>
-                <td class="sname">HAW</td>
-                <td class="lscore">11</td>
-                <td class="winner">12</td>
-                <td class="winner lname">Capons</td>
-                <td class="winner sname">CAP</td>
-              </tr>
-              <tr>
-                <td>Sunday</td>
-                <td class="winner lname">Stags</td>
-                <td class="winner sname">STA</td>
-                <td class="winner">6</td>
-                <td class="lscore">2</td>
-                <td class="lname">Foxes</td>
-                <td class="sname">FOX</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="weather">
-          <span class="weather__location">Brighton, UK</span>
-          <span class="weather__desc">Sunny</span>
-          <span class="weather__today">
-          <img class="weather__today__image" src="images/weather.png" alt="icon of a partially sunny day"><span class="weather__today__temp">13</span><span class="weather__today__deg">&deg;C</span>
-          </span>
-          <ul class="weather__next">
-            <li class="weather__next__item">
-              <span>Mon</span>
-              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
-              <span>13 &deg;C</span>
-            </li><li class="weather__next__item">
-              <span>Tues</span>
-              <img class="weather__next__image" src="images/cloudy.png" alt="icon of a cloudy day">
-              <span>13 &deg;C</span>
-            </li><li class="weather__next__item">
-              <span>Wed</span>
-              <img class="weather__next__image" src="images/cloudy.png" alt="icon of a cloudy day">
-              <span>13 &deg;C</span>
-            </li><li class="weather__next__item">
-              <span>Thu</span>
-              <img class="weather__next__image" src="images/rain.png" alt="icon of a rainy day">
-              <span>13 &deg;C</span>
-            </li><li class="weather__next__item">
-              <span>Fri</span>
-              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
-              <span>13 &deg;C</span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="news recent-news">
-          <h2 class="news__title">Latest news <a href="#" class="news__more">+ more</a></h2>
-          <ul>
-            <li class="snippet">
-              <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">
-              <h3 class="snippet__title"><a href="#">Gastropub distillery Marfa farm-to-table</a></h3>
-              <p class="snipper__text">Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.
-              Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.
-              </p>
-            </li>
-            <li class="snippet">
-              <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">
-              <h3 class="snippet__title"><a href="#">Organic raw keffiyeh four loko.</a></h3>
-              <p class="snipper__text">Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice loko.
-              </p>
-            </li>
-            <li class="snippet">
-              <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">
-              <h3 class="snippet__title"><a href="#">Kickstarter art party cronut scenester.</a></h3>
-              <p class="snipper__text">Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.
-              Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko.
-              </p>
-            </li>
-            <li class="snippet">
-              <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">
-              <h3 class="snippet__title"><a href="#">Squid lomo Kickstarter art party cronut </a></h3>
-              <p class="snipper__text">Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.
-              Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <footer>
-        <ul>
-          <li><a href="#">Contact us</a></li>
-          <li><a href="#">Follow us on Twitter</a></li>
-          <li><a href="#">RSS</a></li>
-        </ul>
-      </footer>
     </main>
-    <script>
-      var menu = document.querySelector('#menu');
-      var main = document.querySelector('main');
-      var drawer = document.querySelector('.nav');
+    <footer>
+        <div class="foot">
+            <div class="social">
+                <a class="linkedin" href="https://www.linkedin.com/in/mbhargav294/"><span class="zocial-linkedin"></span></a>
+            </div>
+            <div class="social">
+                <a class="facebook" href="https://www.facebook.com/mbhargav294"><span class="zocial-facebook"></span></a>
+            </div>
+            <div class="social">
+                <a class="gplus" href="https://plus.google.com/+MadhuBhargav"><span class="zocial-googleplus"></span></a>
+            </div>
+            <div class="social">
+                <a class="twitter" href="https://twitter.com/mbhargav294"><span class="zocial-twitter"></span></a>
+            </div>
+            <div class="col12">
+                <p class="copyright">Copyright Madhu Bhargav ©</p>
+            </div>
+        </div>
+    </footer>
+</body>
 
-      menu.addEventListener('click', function(e) {
-        drawer.classList.toggle('open');
-        e.stopPropagation();
-      });
-      main.addEventListener('click', function() {
-        drawer.classList.remove('open');
-      });
-
-    </script>
-  </body>
 </html>
